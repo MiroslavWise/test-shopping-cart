@@ -14,14 +14,14 @@
 
 ## Архитектура проекта
 
-src/
-├── api/              # Instances для запросов в services/ или в будущем для других
-├── assets/           # Переиспользуемые SVG-компоненты (в данном проекте)
-├── components/       # Переиспользуемые UI-компоненты
-├── constants/        # Константы
-├── helpers/          # Хелперы
-├── providers/        # Контекстные провайдеры
-├── services/         # API сервисы (axios instances)
-├── routes/           # Роуты TanStack Router
-├── stores/           # Zustand stores
-└── types/            # TypeScript типы (ICart, IPutProduct, IProduct)
+> src/
+>> api/              # Instances для запросов в services/ или в будущем для других
+>> assets/           # Переиспользуемые SVG-компоненты (в данном проекте)
+>> components/       # Переиспользуемые UI-компоненты
+>> constants/        # Константы
+>> helpers/          # Хелперы
+>> providers/        # Контекстные провайдеры
+>> services/         # API сервисы (axios instances)
+>> routes/           # Роуты TanStack Router
+>> stores/           # Zustand stores
+>> types/            # TypeScript типы (ICart, IPutProduct, IProduct)
